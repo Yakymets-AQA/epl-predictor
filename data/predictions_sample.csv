@@ -1,21 +1,51 @@
 match_id,round,user_id,user,home_team,away_team,predicted_home_goals,predicted_away_goals
-M1,1,U0005,Дмитро,Ліверпуль,Брайтон,1,2
-M2,1,U0005,Дмитро,Челсі,Евертон,2,1
-M3,1,U0005,Дмитро,Бернлі,Фулхем,0,2
-M4,1,U0005,Дмитро,Арсенал,Вулверхемптон,3,0
-M5,1,U0005,Дмитро,Крістал Пелес,Манчестер Сіті,1,3
-M6,1,U0005,Дмитро,Ноттінгем Форест,Тоттенхем,0,1
-M7,1,U0005,Дмитро,Вест Хем,Астон Вілла,0,3
-M8,1,U0005,Дмитро,Сандерленд,Ньюкасл,2,1
-M9,1,U0005,Дмитро,Брентфорд,Лідс,1,1
-M10,1,U0005,Дмитро,Манчестер Юнайтед,Борнмут,3,1
-M1,1,U0010,Marvel,Ліверпуль,Брайтон,2,1
-M2,1,U0010,Marvel,Челсі,Евертон,2,1
-M3,1,U0010,Marvel,Бернлі,Фулхем,1,2
-M4,1,U0010,Marvel,Арсенал,Вулверхемптон,3,0
-M5,1,U0010,Marvel,Крістал Пелес,Манчестер Сіті,2,2
-M6,1,U0010,Marvel,Ноттінгем Форест,Тоттенхем,1,2
-M7,1,U0010,Marvel,Вест Хем,Астон Вілла,1,1
-M8,1,U0010,Marvel,Сандерленд,Ньюкасл,2,2
-M9,1,U0010,Marvel,Брентфорд,Лідс,1,0
-M10,1,U0010,Marvel,Манчестер Юнайтед,Борнмут,2,1
+M1,1,U0002,AA AA,Liverpool,Brighton,2,1
+M3,1,U0002,AA AA,Burnley,Fulham,0,0
+M4,1,U0002,AA AA,Arsenal,Wolverhampton,2,0
+M5,1,U0002,AA AA,Crystal Palace,Manchester City,1,2
+M6,1,U0002,AA AA,Nottingham Forest,Tottenham,2,1
+M7,1,U0002,AA AA,West Ham,Aston Villa,1,0
+M9,1,U0002,AA AA,Brentford,Leeds,1,1
+M10,1,U0002,AA AA,Manchester United,Bournemouth,2,1
+M1,1,U0003,Yaroslav,Liverpool,Brighton,2,1
+M3,1,U0003,Yaroslav,Burnley,Fulham,1,2
+M4,1,U0003,Yaroslav,Arsenal,Wolverhampton,2,1
+M5,1,U0003,Yaroslav,Crystal Palace,Manchester City,1,2
+M6,1,U0003,Yaroslav,Nottingham Forest,Tottenham,1,2
+M7,1,U0003,Yaroslav,West Ham,Aston Villa,1,2
+M9,1,U0003,Yaroslav,Brentford,Leeds,2,1
+M10,1,U0003,Yaroslav,Manchester United,Bournemouth,2,1
+M1,1,U0004,Alex,Liverpool,Brighton,1,1
+M3,1,U0004,Alex,Burnley,Fulham,0,2
+M4,1,U0004,Alex,Arsenal,Wolverhampton,2,0
+M5,1,U0004,Alex,Crystal Palace,Manchester City,2,2
+M6,1,U0004,Alex,Nottingham Forest,Tottenham,0,1
+M7,1,U0004,Alex,West Ham,Aston Villa,0,3
+M9,1,U0004,Alex,Brentford,Leeds,3,1
+M10,1,U0004,Alex,Manchester United,Bournemouth,1,2
+M1,1,U0005,Bogdan,Liverpool,Brighton,2,0
+M3,1,U0005,Bogdan,Burnley,Fulham,1,2
+M4,1,U0005,Bogdan,Arsenal,Wolverhampton,3,0
+M5,1,U0005,Bogdan,Crystal Palace,Manchester City,1,2
+M6,1,U0005,Bogdan,Nottingham Forest,Tottenham,1,1
+M7,1,U0005,Bogdan,West Ham,Aston Villa,2,0
+M9,1,U0005,Bogdan,Brentford,Leeds,1,1
+M10,1,U0005,Bogdan,Manchester United,Bournemouth,2,1
+M1,1,U0006,Sheva,Liverpool,Brighton,3,1
+M3,1,U0006,Sheva,Burnley,Fulham,1,1
+M4,1,U0006,Sheva,Arsenal,Wolverhampton,3,0
+M5,1,U0006,Sheva,Crystal Palace,Manchester City,1,2
+M6,1,U0006,Sheva,Nottingham Forest,Tottenham,1,1
+M7,1,U0006,Sheva,West Ham,Aston Villa,0,1
+M9,1,U0006,Sheva,Brentford,Leeds,2,1
+M10,1,U0006,Sheva,Manchester United,Bournemouth,1,0
+M1,1,U0007,Світлана Петух,Liverpool,Brighton,2,1
+M2,1,U0007,Світлана Петух,Chelsea,Everton,2,1
+M3,1,U0007,Світлана Петух,Burnley,Fulham,1,3
+M4,1,U0007,Світлана Петух,Arsenal,Wolverhampton,3,0
+M5,1,U0007,Світлана Петух,Crystal Palace,Manchester City,1,2
+M6,1,U0007,Світлана Петух,Nottingham Forest,Tottenham,1,2
+M7,1,U0007,Світлана Петух,West Ham,Aston Villa,1,3
+M8,1,U0007,Світлана Петух,Sunderland,Newcastle,1,2
+M9,1,U0007,Світлана Петух,Brentford,Leeds,1,1
+M10,1,U0007,Світлана Петух,Manchester United,Bournemouth,2,1

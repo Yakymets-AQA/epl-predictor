@@ -14,6 +14,10 @@ MATCH_PATTERNS = [
     re.compile(
         r"^(?P<home>.+?)\s*[-–]\s*(?P<away>.+?)\s+(?P<home_goals>\d+)\s*[:\-]\s*(?P<away_goals>\d+)$"
     ),
+    # Format: Team 1 – Team 2: 3–1 (score after colon, dash between digits)
+    re.compile(
+        r"^(?P<home>.+?)\s*[-–]\s*(?P<away>.+?)\s*[:：]\s*(?P<home_goals>\d+)\s*[-–]\s*(?P<away_goals>\d+)$"
+    ),
 ]
 
 

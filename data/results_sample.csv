@@ -1,11 +1,11 @@
 match_id,round,home_team,away_team,home_goals,away_goals
-M1,1,Ліверпуль,Брайтон,2,1
-M2,1,Челсі,Евертон,2,1
-M3,1,Бернлі,Фулхем,1,2
-M4,1,Арсенал,Вулверхемптон,3,0
-M5,1,Крістал Пелес,Манчестер Сіті,2,2
-M6,1,Ноттінгем Форест,Тоттенхем,1,2
-M7,1,Вест Хем,Астон Вілла,1,1
-M8,1,Сандерленд,Ньюкасл,2,2
-M9,1,Брентфорд,Лідс,1,0
-M10,1,Манчестер Юнайтед,Борнмут,2,1
+M1,1,Liverpool,Brighton,3,1
+M2,1,Chelsea,Everton,2,0
+M3,1,Burnley,Fulham,1,2
+M4,1,Arsenal,Wolverhampton,3,0
+M5,1,Crystal Palace,Manchester City,0,2
+M6,1,Nottingham Forest,Tottenham,1,2
+M7,1,West Ham,Aston Villa,1,1
+M8,1,Sunderland,Newcastle,0,2
+M9,1,Brentford,Leeds,2,1
+M10,1,Manchester United,Bournemouth,3,1
