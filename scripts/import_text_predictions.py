@@ -160,7 +160,7 @@ def _merge_prediction_rows(
     return list(merged.values())
 
 
-def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
+def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Append user predictions from a text file to the predictions CSV."
     )
@@ -192,7 +192,7 @@ def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
-def main(argv: Iterable[str] | None = None) -> int:
+def main(argv: Sequence[str] | None = None) -> int:
     args = parse_args(argv)
     text_lines = args.text_file.read_text(encoding="utf-8").splitlines()
     blocks = _split_blocks(text_lines)
