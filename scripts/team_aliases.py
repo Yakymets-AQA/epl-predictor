@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import unicodedata
 
+INVISIBLE_CHARACTERS = "\ufeff\u200b\u200c\u200d\u2060"
+_REMOVE_INVISIBLE = str.maketrans("", "", INVISIBLE_CHARACTERS)
 
 TEAM_ALIASES = {
     # Arsenal
@@ -130,6 +132,7 @@ def normalize_team_name(name: str) -> str:
     if not name:
         return ""
     base = unicodedata.normalize("NFKC", name)
+    base = base.translate(_REMOVE_INVISIBLE).replace("\xa0", " ")
     base = base.replace("ё", "е")
     base = " ".join(base.lower().replace("-", " ").split())
     return TEAM_ALIASES.get(base, base)

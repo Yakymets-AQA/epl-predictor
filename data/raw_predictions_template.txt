@@ -1,91 +1,971 @@
 # Для каждого пользователя укажите несколько строк метаданных
 # (ID, имя и т.п.), затем список матчей в формате
-#   Команда 1 2 : 1 Команда 2
+# Команда 1 - Команда 2 2:1
 # или
-#   Команда 1 - Команда 2 2:1
+# Команда 1 - Команда 2 2:1
 #
-# Пример:
-# U0001
+# Пример:# U0001
 # Mashka
-# Tottenham 2 : 1 Arsenal
-# Liverpool 1 : 2 Chelsea
+# Tottenham - Arsenal 2:1
+# Liverpool - Chelsea 1:2
 #
 # Пустая строка отделяет пользователей.
-
-U0002
+U0034
 AA AA
-Ліверпуль - Брайтон 2-1
-Челсі - Евертон 1-0
-Бернлі - Фулхем 0-0
-Арсенал - Вулверхемптон 2-0
-Крістал Пелес - Манчестер Сіті 1-2
-Ноттінгем Форест - Тоттенхем 2-1
-Вест Хем - Астон Вілла 1-0
-Сандерленд - Ньюкасл 2-1
-Брентфорд - Лідс 1-1
-Манчестер Юнайтед - Борнмут 2-1
-
-U0003
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:0
+Burnley - Fulham 0:0
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:0
+Sunderland - Newcastle 2:1
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 2:1
+U0018
 Yaroslav
-Ліверпуль - Брайтон 2-1
-Челсі - Евертон 2-1
-Бернлі - Фулхем 1-2
-Арсенал - Вулверхемптон 2-1
-Крістал Пелес - Манчестер Сіті 1-2
-Ноттінгем Форест - Тоттенхем 1-2
-Вест Хем - Астон Вілла 1-2
-Сандерленд - Ньюкасл 1-2
-Брентфорд - Лідс 2-1
-Манчестер Юнайтед - Борнмут 2-1
-
-U0004
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 2:1
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0015
 Alex
-Ліверпуль - Брайтон 1:1
-Челсі - Евертон 1:1
-Бернлі - Фулхем 0:2
-Арсенал - Вулверхемптон 2:0
-Крістал Пелес - Манчестер Сіті 2:2
-Ноттінгем Форест - Тоттенхем 0:1
-Вест Хем - Астон Вілла 0:3
-Сандерленд - Ньюкасл 0:0
-Брентфорд - Лідс 3:1
-Манчестер Юнайтед - Борнмут 1:2
-
-U0005
-Bogdan
-Ліверпуль 2-0 Брайтон
-Челсі 1-1 Евертон
-Бернлі 1-2 Фулхем 
-Арсенал 3-0 Вулверхемптон 
-Крістал Пелес 1-2 Манчестер Сіті 
-Ноттінгем Форест 1-1 Тоттенхем 
-Вест Хем 2-0 Астон Вілла 
-Сандерленд 1-0 Ньюкасл 
-Брентфорд 1-1 Лідс
-Манчестер Юнайтед 2-1 Борнмут
-
-U0006
+Liverpool - Brighton 1:1
+Chelsea - Everton 1:1
+Burnley - Fulham 0:2
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 2:2
+Nottingham Forest - Tottenham 0:1
+West Ham - Aston Villa 0:3
+Sunderland - Newcastle 0:0
+Brentford - Leeds 3:1
+Manchester United - Bournemouth 1:2
+U0047
+Hycha Bogdan
+Liverpool - Brighton 2:0
+Chelsea - Everton 1:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 2:0
+Sunderland - Newcastle 1:0
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 2:1
+U0002
 Sheva
-Ліверпуль - Брайтон 3:1
-Челсі - Евертон 2:0
-Бернлі - Фулхем 1:1
-Арсенал - Вулверхемптон 3:0
-Крістал Пелес - Манчестер Сіті 1:2
-Ноттінгем Форест - Тоттенхем 1:1
-Вест Хем - Астон Вілла 0:1
-Сандерленд - Ньюкасл 1:2
-Брентфорд - Лідс 2:1
-Манчестер Юнайтед - Борнмут 1:0
-
-U0007
+Liverpool - Brighton 3:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 0:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 1:0
+U0017
 Світлана Петух
-Liverpool 2 : 1 Brighton
-Chelsea 2 : 1 Everton
-Burnley 1 : 3 Fulham
-Arsenal 3 : 0 Wolverhampton
-Crystal Palace 1 : 2 Manchester City
-Nottingham Forest 1 : 2 Tottenham
-West Ham 1 : 3 Aston Villa
-Sunderland 1 : 2 Newcastle
-Brentford 1 : 1 Leeds
-Manchester United 2 : 1 Bournemouth
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:3
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 1:2
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 2:1
+U0075
+Влад
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:0
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 0:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:0
+U0068
+Kostritsa Bogdan
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:2
+Burnley - Fulham 2:1
+Arsenal - Wolverhampton 5:0
+Crystal Palace - Manchester City 0:1
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 0:0
+U0204
+Юрій
+Liverpool - Brighton 2:1
+Chelsea - Everton 3:1
+Burnley - Fulham 0:2
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 2:1
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 3:1
+U0051
+Валентина
+Liverpool - Brighton 2:0
+Chelsea - Everton 1:1
+Burnley - Фулгем 1:2
+Arsenal - Wolverhampton 2:1
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Тоттенгем 1:2
+Вест Хем - Aston Villa 0:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 1:2
+МЮ - Bournemouth 2:1
+U0081
+Виталий Волошин
+Liverpool - Brighton 3:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:3
+Arsenal - Wolverhampton 5:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:3
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 1:1
+Brentford - Leeds 3:2
+Manchester United - Bournemouth 4:2
+U0050
+Володимир Корзаченко
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:1
+Burnley - Фулгем 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Тоттенгем 1:2
+Вест Хем - Aston Villa 0:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0005
+Дмитро Кушнір
+Liverpool - Brighton 2:0
+Chelsea - Everton 3:1
+Burnley - Фулгем 1:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Тоттенгем 0:2
+West Ham - Aston Villa 3:1
+Sunderland - Newcastle 3:1
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 1:3
+U0029
+Рома Назарчук
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 0:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 3:2
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 2:1
+U0078
+Nazar
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 0:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 2:0
+U0053
+(^=^) 🐱
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:0
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 2:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 0:1
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 2:0
+U0115
+Андрій Яковів
+Liverpool - Brighton 1:2
+Chelsea - Everton 3:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 1:1
+U0038
+TSE
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 0:0
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 0:0
+Manchester United - Bournemouth 2:0
+U0031
+Sergio
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 0:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 3:1
+U0127
+ProD1m41kSto
+Ливерпуль - Brighton 2:1
+Челси - Everton 3:0
+Бернли - Fulham 1:1
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 2:1
+Nottingham Forest - Tottenham 0:2
+Вест Хем - Астон Вилла 2:2
+Sunderland - Newcastle 0:1
+Brentford - Лидс 2:0
+Manchester United - Bournemouth 2:1
+U0082
+Віктор Л.
+Liverpool - Brighton 4:2
+Chelsea - Everton 1:0
+Burnley - Fulham 0:4
+Arsenal - Wolverhampton 6:1
+Crystal Palace - Manchester City 2:4
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 3:2
+U0032
+Анатолий Бабич
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 0:1
+West Ham - Aston Villa 0:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 3:2
+Manchester United - Bournemouth 2:1
+U0014
+Андрій
+Liverpool - Brighton 1:0
+Chelsea - Everton 2:1
+Burnley - Fulham 0:0
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 2:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:0
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 1:0
+U0085
+Лисий Артета
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:3
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 2:2
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 2:3
+Brentford - Leeds 0:1
+Manchester United - Bournemouth 1:2
+U0076
+Ilya
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:0
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 0:3
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:0
+U0026
+Yura
+Liverpool - Brighton 3:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 2:1
+Crystal Palace - Manchester City 0:3
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 0:2
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 1:2
+U0111
+Евгений
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 2:2
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:0
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 0:3
+U0030
+Лазиз Джумаев
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 0:2
+Nottingham Forest - Tottenham 2:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:0
+U0028
+Sasha L
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:0
+Burnley - Fulham 0:0
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 0:0
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:0
+U0036
+Зайка
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:1
+Burnley - Fulham 2:0
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 2:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 3:0
+Sunderland - Newcastle 2:1
+Brentford - Leeds 2:4
+Manchester United - Bournemouth 2:1
+U0021
+Стефано Бандерас
+Liverpool - Brighton 3:0
+Chelsea - Everton 2:0
+Burnley - Fulham 1:0
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 2:1
+Ноттінгем - Tottenham 1:2
+West Ham - Aston Villa 0:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 3:0
+U0033
+SoloWay
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 2:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:1
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:0
+Sunderland - Newcastle 0:1
+Brentford - Leeds 1:2
+Manchester United - Bournemouth 2:1
+U0037
+Yaroslav Sokhan
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0011
+Володимир:)
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Фулгем 0:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Тоттенгем 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 1:0
+U0083
+Богдан Д.
+Liverpool - Brighton 0:2
+Chelsea - Everton 2:2
+Burnley - Фулгем 1:0
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:4
+Nottingham Forest - Тоттенгем 1:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 1:3
+U0131
+adm M
+Liverpool - Brighton 1:1
+Chelsea - Everton 2:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 2:3
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 0:1
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 2:0
+U0025
+Vladyslav
+Liverpool - Brighton 1:0
+Chelsea - Everton 1:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 2:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 2:1
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 2:0
+U0004
+Олександр Мїхно
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 0:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0058
+Uri
+Liverpool - Brighton 2:0
+Chelsea - Everton 1:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:1
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 2:1
+U0114
+Maryna Suckhova
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 0:2
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:3
+Brentford - Leeds 2:2
+Manchester United - Bournemouth 2:1
+U0010
+49785 Дмитро
+Liverpool - Brighton 1:1
+Chelsea - Everton 2:0
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 2:2
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 2:1
+U0045
+Борислав
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:1
+Burnley - Fulham 0:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 0:0
+Manchester United - Bournemouth 2:1
+U0046
+Сергій Іващук
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:0
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0054
+Kolya Kagarluk
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 2:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:1
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 2:0
+U0023
+ZeRo
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:1
+Burnley - Fulham 1:0
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 2:1
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:1
+Brentford - Leeds 3:1
+Manchester United - Bournemouth 2:1
+U0077
+Artic
+Liverpool - Brighton 2:1
+Chelsea - Everton 0:0
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 1:2
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 2:2
+West Ham - Aston Villa 0:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 3:0
+U0066
+Алик Худинец
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:2
+Burnley - Fulham 0:2
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 0:1
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:2
+U0086
+Денис (True)
+Liverpool - Brighton 1:2
+Chelsea - Everton 0:0
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 0:3
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 2:2
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 2:0
+U0055
+ЯРОСЛАВ
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 2:1
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 2:1
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 2:1
+Sunderland - Newcastle 2:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0009
+Олександр Миргородський
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0113
+Роман Гарасим
+Liverpool - Brighton 1:0
+Chelsea - Everton 2:0
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 1:1
+U0008
+Oleksandr
+Liverpool - Brighton 3:1
+Chelsea - Everton 2:0
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 3:1
+Manchester United - Bournemouth 2:0
+U0067
+Тарас
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 3:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:1
+Brentford - Leeds - 1
+Manchester United - Bournemouth 4:1
+U0060
+Антон 7
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 1:3
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 2:3
+Nottingham Forest - Tottenham 0:2
+West Ham - Aston Villa 1:4
+Sunderland - Newcastle 1:0
+Brentford - Leeds 3:0
+Manchester United - Bournemouth 3:1
+U0048
+Ігор Гаврилець
+Liverpool - Brighton 1:1
+Chelsea - Everton 0:0
+Burnley - Fulham 3:1
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 3:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 0:3
+Sunderland - Newcastle 2:2
+Brentford - Leeds 1:2
+Manchester United - Bournemouth 3:1
+U0006
+Довгань Валентин
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:0
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:0
+U0062
+Ruslan
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 0:1
+Sunderland - Newcastle 1:1
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 1:1
+U0035
+Marvel (Santa)
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 2:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 2:2
+Brentford - Leeds 1:0
+Manchester United - Bournemouth 2:1
+U0041
+Коля)))
+Liverpool - Brighton - 2:0
+Chelsea - Everton - 3:1
+Burnley - Fulham - 1:1
+Arsenal - Wolverhampton - 2:1
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham - 1:3
+Вест Хем - Aston Villa - 2:2
+Sunderland - Newcastle - 0:1
+Brentford - Leeds - 3:2
+Manchester United - Bournemouth - 2:1
+U0020
+Александр 25
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 0:1
+Sunderland - Newcastle 0:1
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 2:0
+U0087
+Олег
+Liverpool - Brighton 2:0
+Chelsea - Everton 3:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:1
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:0
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 3:0
+U0074
+Дмитро Хлонь
+Liverpool - Brighton 1:3
+Chelsea - Everton 1:1
+Burnley - Fulham 2:0
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 2:1
+Nottingham Forest - Tottenham 2:2
+West Ham - Aston Villa 0:4
+Sunderland - Newcastle 2:2
+Brentford - Leeds 2:4
+Manchester United - Bournemouth 1:1
+U0056
+3488664
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 1:1
+Nottingham Forest - Tottenham 0:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 1:0
+U0027
+Сергій Гамоля
+Liverpool - Brighton 2:0
+Chelsea - Everton 3:1
+Burnley - Fulham 0:0
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 0:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 2:1
+U0052
+Андрюха 44
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:0
+Burnley - Fulham 0:3
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 2:1
+Brentford - Leeds 3:0
+Manchester United - Bournemouth 3:0
+U0096
+Виктор Жигулин
+Liverpool - Brighton 3:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 2:1
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 0:1
+Brentford - Leeds 2:2
+Manchester United - Bournemouth 2:1
+U0073
+Nikita
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 0:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:3
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:3
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:0
+U0059
+Алексей
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:0
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:3
+Ноттінгем - Tottenham 1:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 2:0
+U0072
+Олег Москальов
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:0
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:2
+Ноттінгем - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 1:2
+Manchester United - Bournemouth 2:1
+U0061
+Дмитро
+Liverpool - Brighton 1:2
+Chelsea - Everton 2:1
+Burnley - Фулгем 0:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:3
+Ноттінгем - Тоттенгем 0:1
+West Ham - Aston Villa 0:3
+Sunderland - Newcastle 2:1
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 3:1
+U0024
+Максим Sliusar
+Liverpool - Brighton 2:1
+Chelsea - Everton 1:0
+Burnley - Fulham 0:2
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:1
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 3:1
+U0019
+Анд
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 4:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 0:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 1:1
+U0044
+MaxСпільнота
+Liverpool - Brighton 2:0
+Chelsea - Everton 3:1
+Burnley - Fulham 0:1
+Arsenal - Wolverhampton 4:2
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 0:2
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 2:3
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 4:1
+U0090
+Петров Роман
+Liverpool - Brighton 1:1
+Chelsea - Everton 3:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 2:3
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:1
+Sunderland - Newcastle 1:1
+Brentford - Leeds 1:1
+Manchester United - Bournemouth 3:1
+U0125
+Світлана ПІТЕЦЬКА
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:1
+Crystal Palace - Manchester City 1:3
+Nottingham Forest - Tottenham 1:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 3:2
+Manchester United - Bournemouth 2:1
+U0003
+Виталий
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1
+U0012
+Shalamay Volodymyr
+Liverpool - Brighton 3:2
+Chelsea - Everton 2:1
+Burnley - Fulham 1:1
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 2:3
+Nottingham Forest - Tottenham 0:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:2
+Brentford - Leeds 3:1
+Manchester United - Bournemouth 2:1
+U0001
+Mashka
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 2:0
+Crystal Palace - Manchester City 0:2
+Nottingham Forest - Tottenham 0:1
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 2:1
+Brentford - Leeds 2:0
+Manchester United - Bournemouth 3:1
+U0093
+Влад🐮
+Liverpool - Brighton 2:1
+Chelsea - Everton 2:0
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 2:2
+West Ham - Aston Villa 1:3
+Sunderland - Newcastle 1:3
+Brentford - Leeds 2:0
+U0022
+Олег Lemberg
+Liverpool - Brighton 2:0
+Chelsea - Everton 2:1
+Burnley - Fulham 1:2
+Arsenal - Wolverhampton 3:0
+Crystal Palace - Manchester City 1:2
+Nottingham Forest - Tottenham 1:2
+West Ham - Aston Villa 1:2
+Sunderland - Newcastle 1:2
+Brentford - Leeds 2:1
+Manchester United - Bournemouth 2:1

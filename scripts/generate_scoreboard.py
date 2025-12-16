@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 from typing import Iterable, Tuple
@@ -26,6 +27,18 @@ RESULT_COLUMNS = {
     "home_goals",
     "away_goals",
 }
+
+COLUMN_TRANSLATIONS = {
+    "Place": "Місце",
+    "User ID": "ID користувача",
+    "Name": "Ім'я",
+    "Matches": "Матчі",
+    "Exact scores": "Точні рахунки",
+    "Total points": "Загальні бали",
+    "Avg points per round": "Середня кількість балів за тур",
+}
+ROUND_METRIC_TRANSLATIONS = {"exact": "точні", "points": "бали"}
+ROUND_COLUMN_PATTERN = re.compile(r"Round (\d+) (exact|points)$")
 
 
 class ScoreComputationError(Exception):
@@ -260,7 +273,19 @@ def _build_standings(scored: pd.DataFrame) -> pd.DataFrame:
     round_columns = [
         col for col in standings.columns if col not in column_order
     ]
-    return standings[column_order + round_columns]
+    ordered = standings[column_order + round_columns].copy()
+    ordered.rename(columns=COLUMN_TRANSLATIONS, inplace=True)
+
+    def _translate_round_column(name: str) -> str:
+        match = ROUND_COLUMN_PATTERN.match(name)
+        if not match:
+            return name
+        round_num, metric = match.groups()
+        metric_label = ROUND_METRIC_TRANSLATIONS.get(metric, metric)
+        return f"Тур {round_num} {metric_label}"
+
+    ordered.columns = [_translate_round_column(col) for col in ordered.columns]
+    return ordered
 
 
 def _write_excel(df: pd.DataFrame, output: Path, sheet_name: str) -> None:

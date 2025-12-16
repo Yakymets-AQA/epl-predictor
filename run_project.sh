@@ -13,10 +13,14 @@ RAW_PREDICTIONS="data/raw_predictions_template.txt"
 PREDICTIONS_CSV="data/predictions_sample.csv"
 OUTPUT_XLSX="output/apl_standings.xlsx"
 
+python3 scripts/normalize_text_matches.py "${RAW_RESULTS}"
+
 python3 scripts/import_text_results.py \
   "${RAW_RESULTS}" \
   "${RESULTS_CSV}" \
   --round "${ROUND}"
+
+python3 scripts/normalize_text_matches.py "${RAW_PREDICTIONS}"
 
 python3 scripts/import_text_predictions.py \
   "${RAW_PREDICTIONS}" \
