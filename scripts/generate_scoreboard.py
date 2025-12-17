@@ -30,14 +30,14 @@ RESULT_COLUMNS = {
 
 COLUMN_TRANSLATIONS = {
     "Place": "Місце",
-    "User ID": "ID користувача",
+    "User ID": "User ID",
     "Name": "Ім'я",
     "Matches": "Матчі",
-    "Exact scores": "Точні рахунки",
+    "Exact scores": "Точні прогнози матчів",
     "Total points": "Загальні бали",
-    "Avg points per round": "Середня кількість балів за тур",
+    "Avg points per round": "Середня кількість балів за тури",
 }
-ROUND_METRIC_TRANSLATIONS = {"exact": "точні", "points": "бали"}
+ROUND_METRIC_TRANSLATIONS = {"exact": "Точні прогнози матчів", "points": "бали"}
 ROUND_COLUMN_PATTERN = re.compile(r"Round (\d+) (exact|points)$")
 
 
