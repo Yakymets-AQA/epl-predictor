@@ -40,6 +40,12 @@ COLUMN_TRANSLATIONS = {
 ROUND_METRIC_TRANSLATIONS = {"exact": "Точні прогнози матчів", "points": "бали"}
 ROUND_COLUMN_PATTERN = re.compile(r"Round (\d+) (exact|points)$")
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+DEFAULT_PREDICTIONS_PATH = BASE_DIR / "data" / "predictions_sample.csv"
+DEFAULT_RESULTS_PATH = BASE_DIR / "data" / "results_sample.csv"
+DEFAULT_OUTPUT_PATH = BASE_DIR / "output" / "apl_standings.xlsx"
+DEFAULT_SHEET_NAME = "Standings"
+
 
 class ScoreComputationError(Exception):
     """Raised when we cannot compute a standings table."""
@@ -298,31 +304,46 @@ def _write_excel(df: pd.DataFrame, output: Path, sheet_name: str) -> None:
         df.to_excel(writer, sheet_name=sheet_name, index=False)
 
 
-def parse_args(argv: Iterable[str]) -> argparse.Namespace:
+def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Compare predictions with real results and produce an Excel standings table."
         )
     )
-    parser.add_argument("predictions", help="Path to the predictions CSV/XLSX file")
-    parser.add_argument("results", help="Path to the real results CSV/XLSX file")
+    parser.add_argument(
+        "predictions",
+        nargs="?",
+        default=DEFAULT_PREDICTIONS_PATH,
+        type=Path,
+        help="Path to the predictions CSV/XLSX file (default: data/predictions_sample.csv)",
+    )
+    parser.add_argument(
+        "results",
+        nargs="?",
+        default=DEFAULT_RESULTS_PATH,
+        type=Path,
+        help="Path to the real results CSV/XLSX file (default: data/results_sample.csv)",
+    )
     parser.add_argument(
         "output",
+        nargs="?",
+        default=DEFAULT_OUTPUT_PATH,
+        type=Path,
         help="Path to the Excel file that should be created or updated",
     )
     parser.add_argument(
         "--sheet",
-        default="Standings",
+        default=DEFAULT_SHEET_NAME,
         help="Name of the sheet to create/replace in the output workbook",
     )
-    return parser.parse_args(argv)
+    return parser.parse_args(list(argv) if argv is not None else None)
 
 
 def main(argv: Iterable[str] | None = None) -> int:
     args = parse_args(argv or sys.argv[1:])
-    pred_path = Path(args.predictions)
-    result_path = Path(args.results)
-    output_path = Path(args.output)
+    pred_path = args.predictions if isinstance(args.predictions, Path) else Path(args.predictions)
+    result_path = args.results if isinstance(args.results, Path) else Path(args.results)
+    output_path = args.output if isinstance(args.output, Path) else Path(args.output)
 
     try:
         predictions, results = _load_inputs(pred_path, result_path)
