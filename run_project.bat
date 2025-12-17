@@ -54,10 +54,15 @@ echo [INFO] Пересчет турнирной таблицы...
 if errorlevel 1 goto :fail
 
 echo [OK] Проект выполнен. Файл таблицы: %OUTPUT_XLSX%.
-popd >nul
-exit /b 0
+call :finish 0
 
 :fail
 echo [ERROR] Выполнение остановлено из-за ошибки на одном из шагов.
+call :finish 1
+
+:finish
 popd >nul
-exit /b 1
+echo.
+echo Нажмите любую клавишу для закрытия окна...
+pause >nul
+exit /b %1

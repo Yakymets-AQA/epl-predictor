@@ -34,10 +34,15 @@ if errorlevel 1 goto :fail
 if errorlevel 1 goto :fail
 
 echo [OK] Python и зависимости установлены.
-popd >nul
-exit /b 0
+call :finish 0
 
 :fail
 echo [ERROR] Скрипт завершён с ошибкой. Проверьте вывод выше.
+call :finish 1
+
+:finish
 popd >nul
-exit /b 1
+echo.
+echo Нажмите любую клавишу для закрытия окна...
+pause >nul
+exit /b %1
