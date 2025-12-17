@@ -2,6 +2,7 @@
 setlocal
 set "SCRIPT_DIR=%~dp0"
 pushd "%SCRIPT_DIR%" >nul
+chcp 65001 >nul
 
 echo [INFO] Проверка наличия Python 3...
 set "PYTHON_CMD=python"

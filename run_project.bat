@@ -2,6 +2,7 @@
 setlocal
 set "SCRIPT_DIR=%~dp0"
 pushd "%SCRIPT_DIR%" >nul
+chcp 65001 >nul
 
 set "PYTHON_CMD=python"
 %PYTHON_CMD% --version >nul 2>&1
