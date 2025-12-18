@@ -44,6 +44,7 @@ TEAM_ALIASES = {
     # Everton
     "everton": "everton",
     "эвертон": "everton",
+    "евертон": "everton",
     "евертона": "everton",
     # Fulham
     "fulham": "fulham",
@@ -116,11 +117,16 @@ TEAM_ALIASES = {
     "west ham united": "west ham united",
     "вест хэм": "west ham united",
     "вест хем": "west ham united",
+    "вест гем": "west ham united",
+    # Sunderland
+    "sunderland": "sunderland",
+    "сандерленд": "sunderland",
     # Wolverhampton Wanderers
     "wolverhampton": "wolverhampton wanderers",
     "wolverhampton wanderers": "wolverhampton wanderers",
     "вулверхэмптон": "wolverhampton wanderers",
     "вулверхемптон": "wolverhampton wanderers",
+    "вулвергемптон": "wolverhampton wanderers",
     # Brighton (already normalized)
     "brighton hove": "brighton",
     "brighton hove albion": "brighton",
