@@ -4,14 +4,22 @@ set "SCRIPT_DIR=%~dp0"
 pushd "%SCRIPT_DIR%" >nul
 chcp 65001 >nul
 
-set "PYTHON_CMD=python"
-%PYTHON_CMD% --version >nul 2>&1
-if errorlevel 1 (
-    set "PYTHON_CMD=py -3"
-    %PYTHON_CMD% --version >nul 2>&1
+set "VENV_PY=%SCRIPT_DIR%.venv\Scripts\python.exe"
+if exist "%VENV_PY%" (
+    set "PYTHON_EXE=%VENV_PY%"
+    set "PYTHON_ARGS="
+) else (
+    set "PYTHON_EXE=python"
+    set "PYTHON_ARGS="
+    "%PYTHON_EXE%" --version >nul 2>&1
     if errorlevel 1 (
-        echo [ERROR] Python 3 не найден. Установите Python или запустите setup_windows.bat.
-        goto :fail
+        set "PYTHON_EXE=py"
+        set "PYTHON_ARGS=-3"
+        "%PYTHON_EXE%" %PYTHON_ARGS% --version >nul 2>&1
+        if errorlevel 1 (
+            echo [ERROR] Python 3 не найден. Установите Python или запустите setup_windows.bat.
+            goto :fail
+        )
     )
 )
 
@@ -30,23 +38,23 @@ set "PREDICTIONS_CSV=data\predictions_sample.csv"
 set "OUTPUT_XLSX=output\apl_standings.xlsx"
 
 echo [INFO] Нормализация шаблона результатов...
-%PYTHON_CMD% scripts\normalize_text_matches.py "%RAW_RESULTS%"
+"%PYTHON_EXE%" %PYTHON_ARGS% scripts\normalize_text_matches.py "%RAW_RESULTS%"
 if errorlevel 1 goto :fail
 
 echo [INFO] Импорт результатов тура %ROUND%...
-%PYTHON_CMD% scripts\import_text_results.py "%RAW_RESULTS%" "%RESULTS_CSV%" --round "%ROUND%"
+"%PYTHON_EXE%" %PYTHON_ARGS% scripts\import_text_results.py "%RAW_RESULTS%" "%RESULTS_CSV%" --round "%ROUND%"
 if errorlevel 1 goto :fail
 
 echo [INFO] Нормализация шаблона прогнозов...
-%PYTHON_CMD% scripts\normalize_text_matches.py "%RAW_PREDICTIONS%"
+"%PYTHON_EXE%" %PYTHON_ARGS% scripts\normalize_text_matches.py "%RAW_PREDICTIONS%"
 if errorlevel 1 goto :fail
 
 echo [INFO] Импорт прогнозов пользователей...
-%PYTHON_CMD% scripts\import_text_predictions.py "%RAW_PREDICTIONS%" "%RESULTS_CSV%" "%PREDICTIONS_CSV%" --clear-users
+"%PYTHON_EXE%" %PYTHON_ARGS% scripts\import_text_predictions.py "%RAW_PREDICTIONS%" "%RESULTS_CSV%" "%PREDICTIONS_CSV%" --clear-users
 if errorlevel 1 goto :fail
 
 echo [INFO] Пересчет турнирной таблицы...
-%PYTHON_CMD% scripts\generate_scoreboard.py "%PREDICTIONS_CSV%" "%RESULTS_CSV%" "%OUTPUT_XLSX%"
+"%PYTHON_EXE%" %PYTHON_ARGS% scripts\generate_scoreboard.py "%PREDICTIONS_CSV%" "%RESULTS_CSV%" "%OUTPUT_XLSX%"
 if errorlevel 1 goto :fail
 
 echo [OK] Проект выполнен. Файл таблицы: %OUTPUT_XLSX%.

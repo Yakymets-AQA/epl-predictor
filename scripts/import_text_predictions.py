@@ -36,6 +36,23 @@ def _normalize_name(name: str) -> str:
     return " ".join(name.strip().lower().split())
 
 
+def _normalize_round(value: str | int | None) -> str:
+    if value is None:
+        return ""
+    return str(value).strip()
+
+
+def _fixture_key(home_team: str, away_team: str) -> Tuple[str, str]:
+    return (_normalize_team(home_team), _normalize_team(away_team))
+
+
+def _fixture_label(home_team: str, away_team: str, round_override: int | None) -> str:
+    label = f"{home_team} vs {away_team}"
+    if round_override is not None:
+        label += f" (round {round_override})"
+    return label
+
+
 def _contains_letters(text: str) -> bool:
     return any(ch.isalpha() for ch in text)
 
@@ -49,16 +66,51 @@ def _strip_chat_header(text: str) -> str:
     return stripped
 
 
+def _resolve_result_row(
+    parsed: Dict[str, str],
+    results_index: Dict[Tuple[str, str], List[Dict[str, str]]],
+    round_override: int | None,
+    ambiguous_fixtures: set[str],
+) -> Dict[str, str] | None:
+    key = _fixture_key(parsed["home_team"], parsed["away_team"])
+    rows = results_index.get(key, [])
+    if not rows:
+        return None
+    if round_override is not None:
+        round_key = _normalize_round(round_override)
+        round_rows = [
+            row
+            for row in rows
+            if _normalize_round(row.get("round", "")) == round_key
+        ]
+        if len(round_rows) == 1:
+            return round_rows[0]
+        if len(round_rows) > 1:
+            ambiguous_fixtures.add(
+                _fixture_label(parsed["home_team"], parsed["away_team"], round_override)
+            )
+        return None
+    if len(rows) == 1:
+        return rows[0]
+    ambiguous_fixtures.add(
+        _fixture_label(parsed["home_team"], parsed["away_team"], round_override)
+    )
+    return None
+
+
 def _parse_prediction_match(
     line: str,
-    results_map: Dict[Tuple[str, str], Dict[str, str]],
-) -> Dict[str, str] | None:
+    results_index: Dict[Tuple[str, str], List[Dict[str, str]]],
+    round_override: int | None,
+    ambiguous_fixtures: set[str],
+) -> Tuple[Dict[str, str], Dict[str, str]] | None:
     parsed = parse_match_line(line)
-    if not parsed:
-        return None
-    key = (_normalize_team(parsed["home_team"]), _normalize_team(parsed["away_team"]))
-    if key in results_map:
-        return parsed
+    if parsed:
+        result_row = _resolve_result_row(
+            parsed, results_index, round_override, ambiguous_fixtures
+        )
+        if result_row:
+            return parsed, result_row
     tokens = line.split()
     if tokens and USER_ID_PATTERN.match(tokens[0]):
         for idx in range(1, len(tokens)):
@@ -66,16 +118,15 @@ def _parse_prediction_match(
             parsed_candidate = parse_match_line(candidate)
             if not parsed_candidate:
                 continue
-            key = (
-                _normalize_team(parsed_candidate["home_team"]),
-                _normalize_team(parsed_candidate["away_team"]),
+            result_row = _resolve_result_row(
+                parsed_candidate, results_index, round_override, ambiguous_fixtures
             )
-            if key in results_map:
-                return parsed_candidate
-    return parsed
+            if result_row:
+                return parsed_candidate, result_row
+    return None
 
 
-def _load_results(path: Path) -> Dict[Tuple[str, str], Dict[str, str]]:
+def _load_results(path: Path) -> Dict[Tuple[str, str], List[Dict[str, str]]]:
     if not path.exists():
         raise SystemExit(f"Results file {path} was not found.")
     with path.open("r", encoding="utf-8", newline="") as fp:
@@ -83,10 +134,10 @@ def _load_results(path: Path) -> Dict[Tuple[str, str], Dict[str, str]]:
         data = list(reader)
     if not data:
         raise SystemExit(f"Results file {path} is empty.")
-    mapping: Dict[Tuple[str, str], Dict[str, str]] = {}
+    mapping: Dict[Tuple[str, str], List[Dict[str, str]]] = {}
     for row in data:
-        key = (_normalize_team(row["home_team"]), _normalize_team(row["away_team"]))
-        mapping[key] = row
+        key = _fixture_key(row["home_team"], row["away_team"])
+        mapping.setdefault(key, []).append(row)
     return mapping
 
 
@@ -246,7 +297,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         print("No predictions found in the provided text file.", file=sys.stderr)
         return 1
 
-    results_map = _load_results(args.results_csv)
+    results_index = _load_results(args.results_csv)
     existing_rows = _load_existing_predictions(args.predictions_csv)
 
     next_user_id = _next_generated_user_id(existing_rows)
@@ -260,11 +311,18 @@ def main(argv: Sequence[str] | None = None) -> int:
     new_rows: List[dict] = []
 
     skipped_matches: List[str] = []
+    ambiguous_fixtures: set[str] = set()
     for idx, (meta, match_lines) in enumerate(blocks, start=1):
-        parsed_matches = [
-            _parse_prediction_match(line, results_map) for line in match_lines
-        ]
-        parsed_matches = [match for match in parsed_matches if match]
+        parsed_matches: List[Tuple[Dict[str, str], Dict[str, str]]] = []
+        for line in match_lines:
+            result = _parse_prediction_match(
+                line, results_index, args.round, ambiguous_fixtures
+            )
+            if result:
+                parsed_matches.append(result)
+                continue
+            if parse_match_line(line):
+                skipped_matches.append(line)
         if not parsed_matches:
             continue
         user_id, user_name = _extract_user_info(meta, idx)
@@ -279,12 +337,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                     name_to_id[normalized_name] = user_id
         elif normalized_name and normalized_name not in name_to_id:
             name_to_id[normalized_name] = user_id
-        for match in parsed_matches:
-            key = (_normalize_team(match["home_team"]), _normalize_team(match["away_team"]))
-            result_row = results_map.get(key)
-            if not result_row:
-                skipped_matches.append(match["home_team"] + " vs " + match["away_team"])
-                continue
+        for match, result_row in parsed_matches:
             round_value = args.round if args.round is not None else result_row["round"]
             new_rows.append(
                 {
@@ -311,6 +364,14 @@ def main(argv: Sequence[str] | None = None) -> int:
         print(
             "[WARNING] Skipped matches without a matching fixture: "
             + ", ".join(sorted(set(skipped_matches))),
+            file=sys.stderr,
+        )
+    if ambiguous_fixtures:
+        hint = "Use --round or remove old seasons from the results file to disambiguate."
+        print(
+            "[WARNING] Ambiguous fixtures (multiple matches found): "
+            + ", ".join(sorted(ambiguous_fixtures))
+            + f". {hint}",
             file=sys.stderr,
         )
     return 0

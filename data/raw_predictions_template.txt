@@ -1,1063 +1,1425 @@
-# Для каждого пользователя укажите несколько строк метаданных
-# (ID, имя и т.п.), затем список матчей в формате
-# Команда 1 - Команда 2 2:1
-# или
-# Команда 1 - Команда 2 2:1
-#
-# Пример:# U0001
-# Mashka
-# Tottenham - Arsenal 2:1
-# Liverpool - Chelsea 1:2
-#
-# Пустая строка отделяет пользователей.
-U0034
-AA AA
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:0
-Burnley - Fulham 0:0
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:0
-Sunderland - Newcastle 2:1
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 2:1
-U0018
-Yaroslav
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 2:1
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
-U0015
-Alex
-Liverpool - Brighton 1:1
-Chelsea - Everton 1:1
-Burnley - Fulham 0:2
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 2:2
-Nottingham Forest - Tottenham 0:1
-West Ham - Aston Villa 0:3
-Sunderland - Newcastle 0:0
-Brentford - Leeds 3:1
-Manchester United - Bournemouth 1:2
-U0047
-Hycha Bogdan
-Liverpool - Brighton 2:0
-Chelsea - Everton 1:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 2:0
-Sunderland - Newcastle 1:0
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 2:1
-U0002
-Sheva
-Liverpool - Brighton 3:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 0:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 1:0
-U0017
-Світлана Петух
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:3
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 1:2
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 2:1
-U0075
-Влад
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:0
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 0:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:0
-U0068
-Kostritsa Bogdan
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:2
-Burnley - Fulham 2:1
-Arsenal - Wolverhampton 5:0
-Crystal Palace - Manchester City 0:1
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 0:0
-U0204
-Юрій
-Liverpool - Brighton 2:1
-Chelsea - Everton 3:1
-Burnley - Fulham 0:2
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 2:1
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 3:1
-U0051
-Валентина
-Liverpool - Brighton 2:0
-Chelsea - Everton 1:1
-Burnley - Фулгем 1:2
-Arsenal - Wolverhampton 2:1
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Тоттенгем 1:2
-Вест Хем - Aston Villa 0:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 1:2
-МЮ - Bournemouth 2:1
-U0081
-Виталий Волошин
-Liverpool - Brighton 3:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:3
-Arsenal - Wolverhampton 5:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:3
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 1:1
-Brentford - Leeds 3:2
-Manchester United - Bournemouth 4:2
-U0050
-Володимир Корзаченко
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:1
-Burnley - Фулгем 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Тоттенгем 1:2
-Вест Хем - Aston Villa 0:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
-U0005
-Дмитро Кушнір
-Liverpool - Brighton 2:0
-Chelsea - Everton 3:1
-Burnley - Фулгем 1:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Тоттенгем 0:2
-West Ham - Aston Villa 3:1
-Sunderland - Newcastle 3:1
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 1:3
-U0029
-Рома Назарчук
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 0:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 3:2
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 2:1
-U0078
-Nazar
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 0:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 2:0
-U0053
-(^=^) 🐱
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:0
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 2:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 0:1
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 2:0
-U0115
-Андрій Яковів
-Liverpool - Brighton 1:2
-Chelsea - Everton 3:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 1:1
-U0038
-TSE
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 0:0
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 0:0
-Manchester United - Bournemouth 2:0
-U0031
-Sergio
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 0:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 3:1
-U0127
-ProD1m41kSto
-Ливерпуль - Brighton 2:1
-Челси - Everton 3:0
-Бернли - Fulham 1:1
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 2:1
-Nottingham Forest - Tottenham 0:2
-Вест Хем - Астон Вилла 2:2
-Sunderland - Newcastle 0:1
-Brentford - Лидс 2:0
-Manchester United - Bournemouth 2:1
+Віктор Л., [1/14/26 - PM] - 3 3:5
 U0082
 Віктор Л.
-Liverpool - Brighton 4:2
-Chelsea - Everton 1:0
-Burnley - Fulham 0:4
-Arsenal - Wolverhampton 6:1
-Crystal Palace - Manchester City 2:4
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 3:2
-U0032
-Анатолий Бабич
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 0:1
-West Ham - Aston Villa 0:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 3:2
-Manchester United - Bournemouth 2:1
-U0014
-Андрій
-Liverpool - Brighton 1:0
-Chelsea - Everton 2:1
-Burnley - Fulham 0:0
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 2:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:0
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 1:0
+Манчестер Юнайтед - Манчестер Сіті 1:4
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 4:2
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 2:3
+Лідс - Фулхем 2:2
+Ноттінгем Форест - Арсенал 1:5
+Вулверхемптон - Ньюкасл 0:3
+Астон Вілла - Евертон 2:3
+Брайтон - Борнмут 2:0
+
+Віктор Л., [1/14/26 - PM] - 3 3:5
+Не канає такий прогноз!
+
+СПІЛЬНОТА ПРОГНОЗІВ, [1/14/26 - PM] - 4 3:5
+Спочатку ID та ім'я, друже
+
+Хаски, [1/14/26 - PM] - 4 3:5
+U0064
+Хаски
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 1:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 3:0
+Лідс - Фулхем 0:0
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 0:3
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:1
+
+Юра Романець, [1/14/26 - PM] - 4 3:5
+U0026
+Yura
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:2
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 1:1
+
+$heva, [1/14/26 - PM] - 4 3:5
+Добре. Зараз перепишу👍
+
+Лисий Артета Адмін, [1/14/26 - PM] - 4 3:5
 U0085
 Лисий Артета
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:3
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 2:2
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 2:3
-Brentford - Leeds 0:1
-Manchester United - Bournemouth 1:2
-U0076
-Ilya
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:0
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 0:3
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:0
-U0026
-Yura
-Liverpool - Brighton 3:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 2:1
-Crystal Palace - Manchester City 0:3
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 0:2
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 1:2
-U0111
-Евгений
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 2:2
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:0
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 0:3
-U0030
-Лазиз Джумаев
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 0:2
-Nottingham Forest - Tottenham 2:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:0
-U0028
-Sasha L
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:0
-Burnley - Fulham 0:0
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 0:0
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:0
-U0036
-Зайка
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:1
-Burnley - Fulham 2:0
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 2:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 3:0
-Sunderland - Newcastle 2:1
-Brentford - Leeds 2:4
-Manchester United - Bournemouth 2:1
-U0021
-Стефано Бандерас
-Liverpool - Brighton 3:0
-Chelsea - Everton 2:0
-Burnley - Fulham 1:0
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 2:1
-Ноттінгем - Tottenham 1:2
-West Ham - Aston Villa 0:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 3:0
-U0033
-SoloWay
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 2:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:1
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:0
-Sunderland - Newcastle 0:1
-Brentford - Leeds 1:2
-Manchester United - Bournemouth 2:1
-U0037
-Yaroslav Sokhan
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
-U0011
-Володимир:)
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Фулгем 0:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Тоттенгем 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 1:0
-U0083
-Богдан Д.
-Liverpool - Brighton 0:2
-Chelsea - Everton 2:2
-Burnley - Фулгем 1:0
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:4
-Nottingham Forest - Тоттенгем 1:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 1:3
-U0131
-adm M
-Liverpool - Brighton 1:1
-Chelsea - Everton 2:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 2:3
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 0:1
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 2:0
-U0025
-Vladyslav
-Liverpool - Brighton 1:0
-Chelsea - Everton 1:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 2:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 2:1
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 2:0
-U0004
-Олександр Мїхно
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 0:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
-U0058
-Uri
-Liverpool - Brighton 2:0
-Chelsea - Everton 1:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:1
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 2:1
-U0114
-Maryna Suckhova
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 0:2
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:3
-Brentford - Leeds 2:2
-Manchester United - Bournemouth 2:1
-U0010
-49785 Дмитро
-Liverpool - Brighton 1:1
-Chelsea - Everton 2:0
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 2:2
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 2:1
-U0045
-Борислав
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:1
-Burnley - Fulham 0:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 0:0
-Manchester United - Bournemouth 2:1
-U0046
-Сергій Іващук
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:0
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
-U0054
-Kolya Kagarluk
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 2:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:1
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 2:0
+
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:1
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:2
+
+Hycha Bogdan, [1/14/26 - PM] - 5 3:5
+U0047
+Hycha Bogdan
+
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 0:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 2:3
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 1:1
+Брайтон - Борнмут 2:0
+
+Рома Назарчук, [1/14/26 - PM] - 8 3:5
+U0029
+Роман Назарчук
+
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:0
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:0
+Ноттінгем Форест - Арсенал 2:3
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 3:0
+Брайтон - Борнмут 1:1
+
+$heva, [1/14/26 - PM] - 8 3:5
+U0002
+$heva
+
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Стефано Бандерас, [1/14/26 - PM] - 8 3:5
+Счшьо?
+
+ZeRo, [1/14/26 - PM] - 9 3:5
 U0023
 ZeRo
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:1
-Burnley - Fulham 1:0
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 2:1
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:1
-Brentford - Leeds 3:1
-Manchester United - Bournemouth 2:1
-U0077
-Artic
-Liverpool - Brighton 2:1
-Chelsea - Everton 0:0
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 1:2
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 2:2
-West Ham - Aston Villa 0:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 3:0
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 4:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 1:2
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:4
+Астон Вілла - Евертон 3:0
+Брайтон - Борнмут 2:1
+
+AA AA, [1/14/26 - PM] - 0 4:0
+U0034
+АА АА
+МЮ - Ман Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 1:1
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Хаски, [1/14/26 - PM] - 0 4:0
+Перед 0021 треба букву U поставити
+
+Стефано Бандерас, [1/14/26 - PM] - 0 4:0
+В мене немає англійського алфавіту
+
+=(^_^)=😺, [1/14/26 - PM] - 1 4:0
+U0053
+=(^_^)=😺
+
+Манчестер Юнайтед - Манчестер Сіті 2:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 1:0
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:2
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:2
+
+Анатолий Бабич, [1/14/26 - PM] - 3 4:0
+U0032
+Анатолий Бабич
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:0
+Сандерленд - Крістал Пелес 1:2
+Лідс - Фулхем 0:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 1:2
+
+Володимир Корзаченко, [1/14/26 - PM] - 4 4:0
+U0050 Володимир Корзаченко Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Борислав, [1/14/26 - PM] - 6 4:0
+U0045
+Борислав
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:2
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 0:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:1
+
+Стефано Бандерас, [1/14/26 - PM] - 6 4:0
+U0021
+Стефано Бандерас
+Манчестер юнайтед - Манчестер сіті 1:1
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 0:1
+Тоттенхем - вест хем 2:0
+Сандерленд - Крістал пелас 2:0
+Лідс - Фулхем 1:0
+Ноттінгем - арсенал 0:2
+Вулверхемптон - Ньюкасл 0:3
+Астон вілла - евертон 2:0
+Брайтон - Борнмут 3:0
+
+Стефано Бандерас, [1/14/26 - PM] - 7 4:0
+Хлопці, ви мене вимотали
+
+Світлана Петух, [1/14/26 - PM] - 7 4:0
+U0017
+Світлана Петух
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:0
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 0:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 2:1
+
+Світлана Петух, [1/14/26 - PM] - 7 4:0
+Це капець складно, задовбує
+
+СПІЛЬНОТА ПРОГНОЗІВ, [1/14/26 - PM] - 8 4:0
+Стефано, це для нашого ж блага) все буде рахуватися швидко і без помилок✅
+
+Юра Романець, [1/14/26 - PM] - 8 4:0
+Ти прикалуєшся я U поставив
+
+СПІЛЬНОТА ПРОГНОЗІВ, [1/14/26 - PM] - 9 4:0
+В одному повідомленні з прогнозами все
+
+Алик Худинец, [1/14/26 - PM] - 9 4:0
 U0066
 Алик Худинец
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:2
-Burnley - Fulham 0:2
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 0:1
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:2
-U0086
-Денис (True)
-Liverpool - Brighton 1:2
-Chelsea - Everton 0:0
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 0:3
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 2:2
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 2:0
-U0055
-ЯРОСЛАВ
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 2:1
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 2:1
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 2:1
-Sunderland - Newcastle 2:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
-U0009
-Олександр Миргородський
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
+Манчестер Юнайтед - Манчестер Сіті 2:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 0:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:3
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 3:2
+
+Хаски, [1/14/26 - PM] - 0 4:1
+То ж я не тобі
+
+Zayka🌹, [1/14/26 - PM] - 0 4:1
+Зробила
+
+Валентина, [1/14/26 - PM] - 1 4:1
+U0051
+Валентина
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 1:1
+Тоттенгем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 2:0
+Лідс - Фулгем 1:1
+Ноттінгем Форест - Арсенал 1:3
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:2
+Брайтон - Борнмут 2:1
+
+Хаски, [1/14/26 - PM] - 1 4:1
+Але тепер в тебе прогноз змінений
+
+Стас Кравчук, [1/14/26 - PM] - 1 4:1
+Не нашёл себя
+
+Хаски, [1/14/26 - PM] - 3 4:1
+Ваш User ID - U0212
+
+Роман Гарасим, [1/14/26 - PM] - 3 4:1
 U0113
 Роман Гарасим
-Liverpool - Brighton 1:0
-Chelsea - Everton 2:0
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 1:1
-U0008
-Oleksandr
-Liverpool - Brighton 3:1
-Chelsea - Everton 2:0
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 3:1
-Manchester United - Bournemouth 2:0
-U0067
-Тарас
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 3:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:1
-Brentford - Leeds - 1
-Manchester United - Bournemouth 4:1
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 1:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:0
+
+Zayka🌹, [1/14/26 - PM] - 5 4:1
+Тому що я нічого не писала
+
+Zayka🌹, [1/14/26 - PM] - 6 4:1
+Хаскі перший раз не получилась
+
+Стас Кравчук, [1/14/26 - PM] - 7 4:1
+U0212
+Стас Кравчук
+Манчестер Юнайтед - Манчестер Сіті 0:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 3:1
+Ноттінгем Форест - Арсенал 0:4
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 3:1
+Брайтон - Борнмут 0:0
+
+СПІЛЬНОТА ПРОГНОЗІВ, [1/14/26 - PM] - 7 4:1
+Просто скопіюй і напиши все правильно, Зайка, без змін.а все що було до цього видали🤝👍
+
+Олег, [1/14/26 - PM] - 8 4:1
+U0116
+Олег (@LeZya)
+Манчестер Юнайтед - Манчестер Сіті 2:0
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 3:0
+Сандерленд - Крістал Пелес 0:2
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 2:2
+Вулверхемптон - Ньюкасл 2:1
+Астон Вілла - Евертон 3:1
+Брайтон - Борнмут 1:1
+
+Zayka🌹, [1/14/26 - PM] - 8 4:1
+Добре я зрозуміла дякую Хаскі
+
+СПІЛЬНОТА ПРОГНОЗІВ, [1/14/26 - PM] - 0 4:2
+Ярославе, спочатку ID (знайди себе в першому коментарі до цього поста)і ім'я
+
+Zayka🌹, [1/14/26 - PM] - 0 4:2
+Хаскі подивись будь ласка.
+
+Антон 7, [1/14/26 - PM] - 4 4:2
 U0060
 Антон 7
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 1:3
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 2:3
-Nottingham Forest - Tottenham 0:2
-West Ham - Aston Villa 1:4
-Sunderland - Newcastle 1:0
-Brentford - Leeds 3:0
-Manchester United - Bournemouth 3:1
-U0048
-Ігор Гаврилець
-Liverpool - Brighton 1:1
-Chelsea - Everton 0:0
-Burnley - Fulham 3:1
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 3:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 0:3
-Sunderland - Newcastle 2:2
-Brentford - Leeds 1:2
-Manchester United - Bournemouth 3:1
-U0006
-Довгань Валентин
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:0
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:0
-U0062
-Ruslan
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 0:1
-Sunderland - Newcastle 1:1
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 1:1
-U0035
-Marvel (Santa)
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 2:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 2:2
-Brentford - Leeds 1:0
-Manchester United - Bournemouth 2:1
-U0041
-Коля)))
-Liverpool - Brighton - 2:0
-Chelsea - Everton - 3:1
-Burnley - Fulham - 1:1
-Arsenal - Wolverhampton - 2:1
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham - 1:3
-Вест Хем - Aston Villa - 2:2
-Sunderland - Newcastle - 0:1
-Brentford - Leeds - 3:2
-Manchester United - Bournemouth - 2:1
-U0020
-Александр 25
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 0:1
-Sunderland - Newcastle 0:1
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 2:0
-U0087
-Олег
-Liverpool - Brighton 2:0
-Chelsea - Everton 3:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:1
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:0
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 3:0
-U0074
-Дмитро Хлонь
-Liverpool - Brighton 1:3
-Chelsea - Everton 1:1
-Burnley - Fulham 2:0
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 2:1
-Nottingham Forest - Tottenham 2:2
-West Ham - Aston Villa 0:4
-Sunderland - Newcastle 2:2
-Brentford - Leeds 2:4
-Manchester United - Bournemouth 1:1
-U0056
-3488664
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 1:1
-Nottingham Forest - Tottenham 0:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 1:0
-U0027
-Сергій Гамоля
-Liverpool - Brighton 2:0
-Chelsea - Everton 3:1
-Burnley - Fulham 0:0
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 0:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 2:1
-U0052
-Андрюха 44
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:0
-Burnley - Fulham 0:3
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 2:1
-Brentford - Leeds 3:0
-Manchester United - Bournemouth 3:0
-U0096
-Виктор Жигулин
-Liverpool - Brighton 3:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 2:1
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 0:1
-Brentford - Leeds 2:2
-Manchester United - Bournemouth 2:1
-U0073
-Nikita
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 0:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:3
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:3
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:0
-U0059
-Алексей
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:0
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:3
-Ноттінгем - Tottenham 1:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 2:0
-U0072
-Олег Москальов
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:0
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:2
-Ноттінгем - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 1:2
-Manchester United - Bournemouth 2:1
-U0061
-Дмитро
-Liverpool - Brighton 1:2
-Chelsea - Everton 2:1
-Burnley - Фулгем 0:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:3
-Ноттінгем - Тоттенгем 0:1
-West Ham - Aston Villa 0:3
-Sunderland - Newcastle 2:1
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 3:1
-U0024
-Максим Sliusar
-Liverpool - Brighton 2:1
-Chelsea - Everton 1:0
-Burnley - Fulham 0:2
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:1
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 3:1
-U0019
-Анд
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 4:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 0:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 1:1
-U0044
-MaxСпільнота
-Liverpool - Brighton 2:0
-Chelsea - Everton 3:1
-Burnley - Fulham 0:1
-Arsenal - Wolverhampton 4:2
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 0:2
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 2:3
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 4:1
-U0090
-Петров Роман
-Liverpool - Brighton 1:1
-Chelsea - Everton 3:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 2:3
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:1
-Sunderland - Newcastle 1:1
-Brentford - Leeds 1:1
-Manchester United - Bournemouth 3:1
-U0125
-Світлана ПІТЕЦЬКА
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:1
-Crystal Palace - Manchester City 1:3
-Nottingham Forest - Tottenham 1:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 3:2
-Manchester United - Bournemouth 2:1
-U0003
-Виталий
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
-U0012
-Shalamay Volodymyr
-Liverpool - Brighton 3:2
-Chelsea - Everton 2:1
-Burnley - Fulham 1:1
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 2:3
-Nottingham Forest - Tottenham 0:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:2
-Brentford - Leeds 3:1
-Manchester United - Bournemouth 2:1
-U0001
-Mashka
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 2:0
-Crystal Palace - Manchester City 0:2
-Nottingham Forest - Tottenham 0:1
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 2:1
-Brentford - Leeds 2:0
-Manchester United - Bournemouth 3:1
-U0093
-Влад🐮
-Liverpool - Brighton 2:1
-Chelsea - Everton 2:0
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 2:2
-West Ham - Aston Villa 1:3
-Sunderland - Newcastle 1:3
-Brentford - Leeds 2:0
-U0022
-Олег Lemberg
-Liverpool - Brighton 2:0
-Chelsea - Everton 2:1
-Burnley - Fulham 1:2
-Arsenal - Wolverhampton 3:0
-Crystal Palace - Manchester City 1:2
-Nottingham Forest - Tottenham 1:2
-West Ham - Aston Villa 1:2
-Sunderland - Newcastle 1:2
-Brentford - Leeds 2:1
-Manchester United - Bournemouth 2:1
+Манчестер Юнайтед - Манчестер Сіті 2:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 1:3
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:1
+Брайтон - Борнмут 2:3
 
-U0040
-Den1993 Den1993
-Ліверпуль - Брайтон 2:1
-Челсі - Евертон 3:1
-Бернлі - Фулхем 1:1
-Арсенал - Вулверхемптон 3:0
-Крістал Пелес - Манчестер Сіті 1:1
-Ноттінгем Форест - Тоттенхем 1:2
-Вест Хем - Астон Вілла 1:1
-Сандерленд - Ньюкасл 2:1
-Брентфорд - Лідс 2:1
-Манчестер Юнайтед - Борнмут 1:1
+Artic, [1/14/26 - PM] - 7 4:2
+U0077
+Artic
+Манчестер Юнайтед - Манчестер Сіті 2:1
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:0
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 0:0
+Лідс - Фулхем 0:2
+Ноттінгем Форест - Арсенал 0:3
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:2
 
-U0005
-Дмитро Кушнір
-Ліверпуль - Брайтон 2:0
-Челсі - Евертон 3:1
-Бернлі - Фулгем 1:1
-Арсенал - Вулвергемптон 2:0
-Кристал Пелес - Манчестер Сіті 1:3
-Ноттінгем Форест - Тоттенгем 0:2
-Вест Гем - Астон Вілла 3:1
-Сандерленд - Ньюкасл 3:1
-Брентфорд - Лідс 2:0
-Манчестер Юнайтед - Борнмут 1:3
+Володимир Кравченко, [1/14/26 - PM] - 1 4:3
+U0007
+Володимир Кравченко
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
 
-U0013
-Колян
-Ліверпуль - Брайтон 2:0
-Челсі - Евертон 2:0
-Бернлі - Фулхем 2:1
-Арсенал - Вулверхемптон 2:0
-Крістал Пелес - Манчестер Сіті 1:2
-Ноттінгем Форест - Тоттенхем 1:2
-Вест Хем - Астон Вілла 1:2
-Сандерленд - Ньюкасл 2:1
-Брентфорд - Лідс 2:1
-Манчестер Юнайтед - Борнмут 2:1
+ЯРОСЛАВ, [1/14/26 - PM] - 1 4:4
+U0055
+ЯРОСЛАВ
+Манчестер Юнайтед - Манчестер СІТІ 2:1
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
 
+Руслан Галус, [1/14/26 - PM] - 8 4:4
+U0142
+Руслан Галус
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Плелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 1:1
+
+Yaroslav, [1/14/26 - PM] - 2 4:5
+U0018
+Yaroslav
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:2
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 0:0
+Лідс - Фулхем 1:0
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+T, [1/14/26 - PM] - 0 5:0
+U0016
+Tonnie
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:2
+Лідс - Фулхем 2:2
+Ноттінгем Форест - Арсенал 1:3
+Вулверхемптон - Ньюкасл 2:1
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:0
+
+Maryna Suchkova, [1/14/26 - PM] - 0 5:0
+U0114
+Maryna Suchkova
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 3:2
+Лідс - Фулхем 0:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:2
+Брайтон - Борнмут 2:1
+
+Котяш Олександр, [1/14/26 - PM] - 2 5:0
+U0214
+Олександр Котяш
+Манчестер Юнайтед - Манчестер Сіті 2:1
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 0:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 1:4
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 4:1
+Брайтон - Борнмут 2:2
+
+49785 Дмитро, [1/14/26 - PM] - 7 5:0
+U0010
+49758 Дмитро
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:1
+
+Серий, [1/14/26 - PM] - 8 5:0
+U0084
+Серий
+Манчестер Юнайтед - Манчестер Сіті 2:3
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 3:2
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 0:1
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Лазиз Джумаев, [1/14/26 - PM] - 6 5:2
+U0030
+Лазиз Джумаев
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 2:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Kostritsa Bogdan, [1/14/26 - PM] - 8 5:3
+U0068
+Kostritsa Bogdan
+
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:2
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 0:0
+Лідс - Фулхем 3:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 2:1
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 3:3
+
+Vovchuk, [1/14/26 - PM] - 8 5:5
 U0043
 Vovchuk
-Ліверпуль - Брайтон 2:1
-Челсі - Челсі 2:1
-Бернлі - Фулхем 1:1
-Арсенал - Вулверхемптон 2:1
-Кристал Пелес - Манчестер Сіті 1:3
-Ноттінгем Форест - Тоттенхем 1:2
-Вест Хем - Астон Вілла 1:1
-Сандерленд - Ньюкасл 1:2
-Брентфорд - Лідс 1:1
-Манчестер Юнайтед - Борнмут 2:2
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:1
+Брайтон - Борнмут 2:1
 
-U0026
-Yura
-Ліверпуль - Брайтон 3:1
-Челсі - Евертон 2:0
-Бернлі - Фулхем 1:2
-Арсенал - Вулверхемптон 2:1
-Крістал Пелес - Манчестер Сіті 0:3
-Ноттінгем Форест - Тоттенхем 1:1
-Вест Хем - Астон Вілла 1:1
-Сандерленд - Ньюкасл 0:2
-Брентфорд - Лідс 2:0
-Манчестер Юнайтед - Борнмут 1:2
+Сергй Котуня, [1/14/26 - PM] - 9 6:0
+U0031
+Sergio
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:0
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:0
 
+Світлана ПІТЕЦЬКА, [1/14/26 - PM] - 6 6:1
+U0125
+Світлана ПІТЕЦЬКА
+Манчестер Юнайтед - Манчестер Сіті 3:3
+Ліверпуль - Бернлі 4:1
+Челсі - Брентфорд 2:3
+Тоттенхем - Вест Хем 1:0
+Сандерленд - Крістал Пелас 0:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:4
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 1:1
+
+Михаил Иванович, [1/14/26 - PM] - 8 6:1
+U0042
+Михаил Иванович
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:0
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 2:0
+Лідс - Фулхем 2:0
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:0
+
+Александр 25, [1/14/26 - PM] - 0 6:2
+U0020
+Александр 25
+
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+N - xzzx, [1/14/26 - PM] - 1 6:2
+U0206
+N-xzzx
+Ман Юнайтед - Ман Сіті 2:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:2
+Лідс - Фулхем 4:2
+Ноттінгем Форест - Арсенал 2:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 3:0
+Брайтон - Борнмут 1:1
+
+Сергй Котуня, [1/14/26 - PM] - 2 6:4
+Перепиши зверху є ж зразок
+U0058
+@IIURIII
+Манчестер-….. і т.д
+
+Мар'ян, [1/14/26 - PM] - 5 6:4
+U0071
+Maryan L
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 1:1
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Uri, [1/14/26 - PM] - 5 6:4
+U0058
+@IIURlll
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:0
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:1
+Астон Вілла - Евертон 3:1
+Брайтон - Борнмут 1:1
+
+Світлана ПІТЕЦЬКА, [1/14/26 - PM] - 7 7:1
+На матч "Брайтон - Борнмут" постав рахунок... але прийдеться переписати по новій усе прогнозування...
+Привіт 😊
+
+Zayka🌹, [1/14/26 - PM] - 9 7:3
+Дякую
+
+Zayka🌹, [1/14/26 - PM] - 0 7:4
+U0036
+Зайка
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 1:2
+Челсі - Брентфорд 2:0
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 3:1
+Лідс - Фулхем 3:1
+Ноттінгем Форест - Арсенал 2:1
+Вулверхемптон - Ньюкасл 3:1
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Den1993 Den1993, [1/14/26 - PM] - 2 7:4
+U0040
+Den1993Den1993
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Олександр Мїхно, [1/14/26 - PM] - 5 7:5
+U0004
+Олександр Міхно
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:2
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 2:1
+
+Олександр Миргородський, [1/14/26 - PM] - 4 8:0
+U0009
+Олександр Миргородський
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 2:1
+
+Володимир, [1/14/26 - PM] - 3 8:3
+U0063
+Володимир @ghjed
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 3:0
+Сандерленд - Крістал Пелес 0:1
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 1:1
+
+Yaroslav Sokhan, [1/14/26 - PM] - 4 9:1
+U0037
+Yaroslav Sokhan
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:0
+
+Андрюха 44 🇺🇦, [1/14/26 - PM] - 2 9:2
+U0052
+Андрюха 44
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 4:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 3:1
+Сандерленд - Крістал Пелес 3:1
+Лідс - Фулхем 1:3
+Ноттінгем Форест - Арсенал 0:3
+Вулверхемптон - Ньюкасл 0:3
+Астон Вілла - Евертон 3:0
+Брайтон - Борнмут 3:1
+
+Колян, [1/14/26 - PM] - 4 10:2
+U0013
+Колян
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:0
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:0
+Вулверхемптон - Ньюкасл 2:1
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Сергй Котуня, [1/14/26 - PM] - 0 10:3
+Перечитайте повідомлення вище
+
+Сергй Котуня, [1/14/26 - PM] - 0 10:3
+Перечитай повідомлення вище!
+
+Дмитро Кушнір, [1/14/26 - PM] - 1 10:3
+Шо, так рахунки не можна ставити? Це ж не смайлики
+
+Сергй Котуня, [1/14/26 - PM] - 1 10:3
+Ти вмієш читати?
+
+Юра Романець, [1/14/26 - PM] - 2 10:3
+Правило читай ідіот
+
+ProD1m41kSto, [1/14/26 - PM] - 2 10:3
+А что не так?
+
+Сергй Котуня, [1/14/26 - PM] - 3 10:3
+Напишіть зверху свій U номер
+
+Дмитро Кушнір, [1/14/26 - PM] - 3 10:3
+Манчестер Юнайтед - Манчестер Сіті 3:1
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:0
+Тоттенгем - Вест Гем 3:1
+Сандерленд - Кристал Пелес 2:0
+Лідс - Фулгем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулвергемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 0:2
+Брайтон - Борнмут 1:3
+
+ProD1m41kSto, [1/14/26 - PM] - 3 10:3
+А какой номер?
+
+ProD1m41kSto, [1/14/26 - PM] - 3 10:3
+А где он?
+
+Сергй Котуня, [1/14/26 - PM] - 4 10:3
+В таблиці підрахунків АПЛ
+
+Дмитро Кушнір, [1/14/26 - PM] - 4 10:3
+А який мій цей U номер? Як знати?
+
+ProD1m41kSto, [1/14/26 - PM] - 5 10:3
+U0127
+МЮ - МС 1:1
+Ливерпуль - Бернли 2:0
+Челси - Брентфорд 2:0
+Тоттенхэм - Вест Хем 1:2
+Сандерленд - Коистал Пелас 2:2
+Лидс - Фулхем 0:0
+Ноттенхем Ф - Арсенал 0:3
+Вулверхемптон - Ньюкасл 1:2
+Астон Вилла - Евертон 2:0
+Брайтон - Борнмут 0:0
+
+Сергй Котуня, [1/14/26 - PM] - 6 10:3
+Там в зразку написано як
+U0000…
+Дмитро Кушнір
+Манчестер-…
+
+
+Ось так!
+
+Дмитро Кушнір, [1/14/26 - PM] - 7 10:3
+Я зразок бачив, але який мій номер, хз!
+
+Sasha L, [1/14/26 - PM] - 7 10:3
+Ти дискваліфікований!
+
+Сергй Котуня, [1/14/26 - PM] - 8 10:3
+
+
+Sasha L, [1/14/26 - PM] - 2 10:4
+U0028
+Sasha L
+Манчестер Юнайтед - Манчестер Сіті 2:2
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:0
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:0
+
+Дмитро Кушнір, [1/14/26 - PM] - 8 10:4
+Поняв. Дякую.
+
+Дмитро Кушнір, [1/14/26 - PM] - 4 10:5
+U0005
+Дмитро Кушнір
+Манчестер Юнайтед - Манчестер Сіті 3:1
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:0
+Тоттенгем - Вест Гем 3:1
+Сандерленд - Кристал Пелес 2:0
+Лідс - Фулгем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулвергемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 0:2
+Брайтон - Борнмут 1:3
+
+Marvel(Santa), [1/14/26 - PM] - 3 11:3
+U0035
+Marvel(Santa)
+
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 2:2
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 1:3
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 3:1
+Брайтон - Борнмут 1:1
+
+St8_koss, [1/15/26 - AM] - 6 12:1
+U0205
+st8_koss
+МЮ - Ман Сіті 2:3
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 2:2
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 1:3
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:2
+Брайтон - Борнмут 2:1
+
+Ігор Гаврилець, [1/15/26 - AM] - 4 2:1
+U 0048
+Ігор Гаврилець
+Манчестер Юнайтед - Манчестер Сіті 5:0
+Ліверпуль - Бернлі 4:0
+Челсі - Брентфорд 2:4
+Тоттенхем - Вест Гем 1:1
+Сандерленд - Крістал Пелес 2:0
+Лідс - Фулгем 2:1
+Ноттінгем - Арсенал 1:4
+Вулвергемптон - Ньюкасл 1:0
+Астон Вілла - Евертон 0:0
+Брайтон - Борнмут 4:1
+
+Kolya Koks, [1/15/26 - AM] - 6 3:4
+U0054
+Kolya Koks
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:2
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 3:0
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 1:2
+
+Виталий, [1/15/26 - AM] - 0 6:3
+U0003
+Виталий
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:2
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 2:1
+
+Nikita, [1/15/26 - AM] - 8 7:5
+U0073
+Nikita
+Манчестер Юнайтед - Манчестер Сіті 0:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:2
+Тоттенхем - Вест Хем 3:0
+Сандерленд - Крістал Пелес 2:2
+Лідс - Фулхем 2:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:3
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:0
+
+adm M, [1/15/26 - AM] - 2 8:3
+U0057
+adm M
+
+Манчестер Юнайтед - Манчестер Сіті 2:1
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 2:2
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:1
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:2
+
+Sasha L, [1/15/26 - AM] - 5 8:4
+Може бути не враховано результат. Перегляньте пост вище
+
+Віталій Волошин, [1/15/26 - AM] - 5 9:0
+U0081
+Віталій Волошин
+Манчестер Юнайтед - Манчестер Сіті 1:1
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 2:2
+Тоттенхем - Вест Хем 3:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:3
+Вулверхемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Виктор Жигулин, [1/15/26 - AM] - 2 11:4
+U0096
+Виктор Жигулин
+
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 0:0
+Лідс - Фулхем 1:0
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Володимир:), [1/15/26 - PM] - 0 12:5
+U0011
+Володимир:)
+Манчестер Юнайтед - Манчестер Сіті 0:1
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенгем - Вест Хем 2:1
+Сандерленд - Кристал Пелес 1:0
+Лідс - Фулгем 1:1
+Ноттінгем Форест - Арсенал 0:1
+Вулвергемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Денис, [1/15/26 - PM] - 8 1:0
+U0086
+Денис (True)
+Манчестер Юнайтед - Манчестер Сіті 2:2
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:2
+
+Nick Grain, [1/15/26 - PM] - 8 7:4
 U0049
 Nick Grain
-Ліверпуль - Брайтон 2:1
-Челсі - Евертон 1:0
-Бернлі - Фулхем 1:2
-Арсенал - Вулверхемптон 2:0
-Крістал Пелес - Манчестер Сіті 1:2
-Ноттінгем Форест - Тоттенхем 1:2
-Вест Хем - Астон Вілла 0:1
-Сандерленд - Ньюкасл 1:0
-Брентфорд - Лідс 2:1
-Манчестер Юнайтед - Борнмут 1:1
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:0
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 1:1
 
-U0050
-Володимир Корзаченко
-Ліверпуль - Брайтон 2:1
-Челсі - Евертон 2:1
-Бернлі - Фулхем 1:2
-Арсенал - Вулверхемптон 3:0
-Крістал Пелес - Манчестер Сіті 1:2
-Ноттінгем Форест - Тоттенхем 1:1
-Вест Хем - Астон Вілла 1:2
-Сандерленд - Ньюкасл 1:1
-Брентфорд - Лідс 2:1
-Манчестер Юнайтед - Борнмут 2:1
+SoloWay, [1/15/26 - PM] - 7 10:0
+U0033
+SoloWay
+Манчестер Юнайтед - Манчестер Сіті 1:1
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:0
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:0
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:1
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:0
 
+Nazar, [1/15/26 - PM] - 9 10:0
+U0078
+Nazar
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 0:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:1
+
+Андрій, [1/15/26 - PM] - 4 10:2
+U0014
+Андрій
+Манчестер Юнайтед - Манчестер Сіті 2:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:0
+Лідс - Фулхем 1:0
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Сергій Гамоля, [1/15/26 - PM] - 1 11:1
+U0027
+Сергій Гамоля
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:2
+Тоттенхем - Вест Хем 3:1
+Сандерленд - Крістал Пелес 0:2
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:1
+
+Евгений, [1/16/26 - AM] - 7 11:4
+U0111
+Евгений
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 0:2
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелас 0:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 1:0
+Вулверхемптон - Ньюкасл 1:1
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Volodymyr Yakymets, [1/16/26 - PM] - 6 2:5
+Ваш прогноз може Буте не порахований виправте помилки у топіку є приклад як зробити
+
+Довгань Валентин Довгань Валентин, [1/16/26 - PM] - 6 3:1
+Довгань Валентин
+U0006
+МЮ - МАН Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брендфорд 1:1
+Тотенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелас 1:0
+Лідс - Фулхем 1:0
+Нотінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+Дмитрий, [1/16/26 - PM] - 5 3:4
+U0043
+Дмитрий
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 2:0
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:0
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+СПІЛЬНОТА ПРОГНОЗІВ, [1/16/26 - PM] - 7 4:2
+U0044
+Max
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 3:2
+Тоттенхем - Вест Хем 1:0
+Сандерленд - Крістал Пелес 1:2
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 1:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 3:1
+Брайтон - Борнмут 0:2
+
+Serhii, [1/16/26 - PM] - 2 5:1
+U0120
+Serhii (@serhii_nest)
+Манчестер Юнайтед - Манчестер Сіті 2:1
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 2:1
+Тоттенгем - Вест Хем 2:1
+Сандерленд - Кристал Пелес 1:2
+Лідс - Фулгем 2:1
+Ноттінгем Форест - Арсенал 1:2
+Вулвергемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Тарас, [1/16/26 - PM] - 6 6:5
+U0067
+Тарас
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 0:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:1
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 3:1
+
+TSE, [1/16/26 - PM] - 9 7:3
+U0038
+TSE
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:0
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 0:1
+Ноттінгем Форест - Арсенал 0:3
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 1:0
+
+Oleksandr, [1/16/26 - PM] - 1 9:0
+U0008
+Oleksandr
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:1
+
+Максим Sliu, [1/16/26 - PM] - 7 9:4
+U0024
+Mаксим Sliusar
+
+Манчестер Юнайтед - Манчестер Сіті 1:1
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 1:0
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:1
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 1:1
+
+Сергй Котуня, [1/16/26 - PM] - 2 10:4
+Перепиши, як вказано в прикріпленому повідомленні
+
+Сергй Котуня, [1/16/26 - PM] - 3 11:1
+Вкажи свій U номер
+
+Олег, [1/16/26 - PM] - 7 11:4
+U0087
+Олег
+
+Манчестер Юнайтед - Манчестер Сіті - 1:2
+Ліверпуль - Бернлі - 2:0
+Челсі - Брентфорд - 2:1
+Тоттенхем - Вест Хем - 3:1
+Сандерленд - Крістал Пелес - 2:1
+Лідс - Фулхем - 1:0
+Ноттінгем Форест - Арсенал - 1:2
+Вулверхемптон - Ньюкасл - 1:3
+Астон Вілла - Евертон - 2:1
+Брайтон - Борнмут - 2:1
+
+Алексей, [1/17/26 - AM] - 9 12:3
+U0059
+Алексей
+МЮ - МС 1:3
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 2:1
+Тотенгем - Вест Гем 2:0
+Сандерленд - Крістал П. 0:0
+Лідс - Фулгем 1:0
+Ноттінгем Форест - Арсенал 1:3
+Вулвергемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 2:1
+
+Vladyslav, [1/17/26 - AM] - 4 5:5
+U0025
+Vladyslav
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 4:0
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 2:0
+Лідс - Фулхем 3:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 1:1
+Брайтон - Борнмут 3:1
+
+Влад🐮, [1/17/26 - AM] - 6 7:1
+U0093
+Влад 🐮
+Манчестер Юнайтед - Манчестер Сіті 0:3
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 2:2
+Тоттенхем - Вест Хем 3:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 1:3
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 1:1
+Брайтон - Борнмут 1:2
+
+Ip Ko, [1/17/26 - AM] - 1 9:5
+U0171
+Ip ko
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 3:0
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 3:0
+Сандерленд - Крістал Пелес 0:2
+Лідс - Фулхем 3:1
+Ноттінгем Форест - Арсенал 1:4
+Вулверхемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 3:0
+Брайтон - Борнмут 2:1
+
+Shalamay Volodymyr🇺🇦, [1/17/26 - AM] - 3 9:5
+U0012
+Shalamay Volodymyr @shaluk82
+Манчестер Юнайтед - Манчестер Сіті 1:3
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:3
+Тоттенгем - Вест Хем 2:1
+Сандерленд - Кристал Пелес 1:1
+Лідс - Фулгем 1:0
+Ноттінгем Форест - Арсенал 0:2
+Вулвергемптон - Ньюкасл 2:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 3:2
+
+Олег Москальов, [1/17/26 - AM] - 8 10:2
+U0072
+Олег Москальов
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 3:1
+Челсі - Брентфорд 3:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:0
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:3
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 2:1
+
+3488664, [1/17/26 - AM] - 1 11:0
+U0056
+3488664
+Манчестер Юнайтед - Манчестер Сіті 1:2
+Ліверпуль - Бернлі 2:1
+Челсі - Брентфорд 1:0
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 2:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 1:1
+Брайтон - Борнмут 1:0
+
+Mashka, [1/17/26 - PM] - 3 12:0
+U0001
+Mashka
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:1
+Сандерленд - Крістал Пелес 1:1
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 1:0
+
+Oлег Lemberg, [1/17/26 - PM] - 4 12:2
+U0022
+Олег Lemberg
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 2:0
+Сандерленд - Крістал Пелес 1:2
+Лідс - Фулхем 1:2
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 2:1
+Брайтон - Борнмут 2:1
+
+Ruslan, [1/17/26 - PM] - 5 1:2
+U0062
+Ruslan
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 1:1
+Тоттенхем - Вест Хем 1:1
+Сандерленд - Крістал Пелес 1:0
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 1:2
+Астон Вілла - Евертон 2:0
+Брайтон - Борнмут 3:2
+
+Дмитро, [1/17/26 - PM] - 5 2:0
+U0061
+Дмитро
+Манчестер Юнайтед - Манчестер Сіті 0:2
+Ліверпуль - Бернлі 2:0
+Челсі - Брентфорд 2:1
+Тоттенгем - Вест Хем 2:1
+Сандерленд - Кристал Пелес 1:1
+Лідс - Фулгем 2:1
+Ноттінгем - Арсенал 0:3
+Вулверхемптон - Ньюкасл 0:2
+Астон Вілла - Евертон 3:2
+Брайтон - Борнмут 1:2
+
+Alex Antonov, [1/17/26 - PM] - 7 2:0
+U0117
+Alex Antonov
+Манчестер Юнайтед - Манчестер Сіті 0:1
+Ліверпуль - Бернлі 4:1
+Челсі - Брентфорд 2:1
+Тоттенхем - Вест Хем 3:1
+Сандерленд - Крістал Пелес 2:1
+Лідс - Фулхем 1:1
+Ноттінгем Форест - Арсенал 0:2
+Вулверхемптон - Ньюкасл 0:3
+Астон Вілла - Евертон 1:0
+Брайтон - Борнмут 1:0

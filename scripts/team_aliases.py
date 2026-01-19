@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import unicodedata
 
+from thefuzz import fuzz, process
+
 INVISIBLE_CHARACTERS = "\ufeff\u200b\u200c\u200d\u2060"
 _REMOVE_INVISIBLE = str.maketrans("", "", INVISIBLE_CHARACTERS)
 
@@ -153,6 +155,25 @@ TEAM_ALIASES = {
     "brighton hove albion": "brighton",
 }
 
+_ALIAS_KEYS = tuple(TEAM_ALIASES.keys())
+_FUZZY_MIN_LENGTH = 4
+_FUZZY_MATCH_THRESHOLD = 88
+_FUZZY_MIN_MARGIN = 5
+
+
+def _fuzzy_alias_match(base: str) -> str | None:
+    if len(base) < _FUZZY_MIN_LENGTH:
+        return None
+    matches = process.extract(base, _ALIAS_KEYS, scorer=fuzz.ratio, limit=2)
+    if not matches:
+        return None
+    best_key, best_score = matches[0][0], matches[0][1]
+    if best_score < _FUZZY_MATCH_THRESHOLD:
+        return None
+    if len(matches) > 1 and (best_score - matches[1][1]) < _FUZZY_MIN_MARGIN:
+        return None
+    return TEAM_ALIASES.get(best_key)
+
 
 def normalize_team_name(name: str) -> str:
     """Return a canonical lowercase team name for cross-language matching."""
@@ -162,4 +183,9 @@ def normalize_team_name(name: str) -> str:
     base = base.translate(_REMOVE_INVISIBLE).replace("\xa0", " ")
     base = base.replace("ё", "е")
     base = " ".join(base.lower().replace("-", " ").split())
-    return TEAM_ALIASES.get(base, base)
+    direct = TEAM_ALIASES.get(base)
+    if direct:
+        return direct
+    # Fuzzy fallback helps with small typos without masking larger mistakes.
+    fuzzy = _fuzzy_alias_match(base)
+    return fuzzy or base

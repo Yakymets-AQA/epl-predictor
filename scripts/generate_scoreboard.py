@@ -69,6 +69,23 @@ def _ensure_columns(df: pd.DataFrame, required: Iterable[str], label: str) -> No
         )
 
 
+def _coerce_int_column(df: pd.DataFrame, column: str, label: str) -> None:
+    series = pd.to_numeric(df[column], errors="coerce")
+    invalid_mask = series.isna()
+    if invalid_mask.any():
+        sample = df.loc[invalid_mask, column].astype(str).head(3).tolist()
+        raise ScoreComputationError(
+            f"{label} has non-numeric values in '{column}': {', '.join(sample)}"
+        )
+    non_integer_mask = (series % 1) != 0
+    if non_integer_mask.any():
+        sample = df.loc[non_integer_mask, column].astype(str).head(3).tolist()
+        raise ScoreComputationError(
+            f"{label} has non-integer values in '{column}': {', '.join(sample)}"
+        )
+    df[column] = series.astype(int)
+
+
 def _winner_sign(diff: int) -> str:
     if diff > 0:
         return "H"
@@ -126,9 +143,14 @@ def _score_predictions(predictions: pd.DataFrame, results: pd.DataFrame) -> pd.D
     merged["home_team"] = merged["home_team"].fillna(merged["home_team_pred"])
     merged["away_team"] = merged["away_team"].fillna(merged["away_team_pred"])
 
-    for col in ["predicted_home_goals", "predicted_away_goals", "home_goals", "away_goals"]:
-        merged[col] = merged[col].astype(int)
-    merged["round"] = merged["round"].astype(int)
+    for col in [
+        "predicted_home_goals",
+        "predicted_away_goals",
+        "home_goals",
+        "away_goals",
+    ]:
+        _coerce_int_column(merged, col, "Merged data")
+    _coerce_int_column(merged, "round", "Merged data")
 
     merged["actual_diff"] = merged["home_goals"] - merged["away_goals"]
     merged["predicted_diff"] = merged["predicted_home_goals"] - merged["predicted_away_goals"]
