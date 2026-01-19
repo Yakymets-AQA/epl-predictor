@@ -25,6 +25,7 @@ PREDICTION_COLUMNS: Sequence[str] = (
 
 USER_ID_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9_-]*\d+[A-Za-z0-9_-]*$")
 GENERATED_ID_PATTERN = re.compile(r"^U(\d+)$")
+CHAT_HEADER_PATTERN = re.compile(r"^(?P<name>.+?),\s*\[[^\]]+\](?:\s*-.*)?$")
 
 
 def _normalize_team(name: str) -> str:
@@ -37,6 +38,41 @@ def _normalize_name(name: str) -> str:
 
 def _contains_letters(text: str) -> bool:
     return any(ch.isalpha() for ch in text)
+
+
+def _strip_chat_header(text: str) -> str:
+    """Remove messenger export headers like 'Name, [1/14/26 - PM] - ...'."""
+    stripped = text.strip()
+    match = CHAT_HEADER_PATTERN.match(stripped)
+    if match:
+        return match.group("name").strip()
+    return stripped
+
+
+def _parse_prediction_match(
+    line: str,
+    results_map: Dict[Tuple[str, str], Dict[str, str]],
+) -> Dict[str, str] | None:
+    parsed = parse_match_line(line)
+    if not parsed:
+        return None
+    key = (_normalize_team(parsed["home_team"]), _normalize_team(parsed["away_team"]))
+    if key in results_map:
+        return parsed
+    tokens = line.split()
+    if tokens and USER_ID_PATTERN.match(tokens[0]):
+        for idx in range(1, len(tokens)):
+            candidate = " ".join(tokens[idx:])
+            parsed_candidate = parse_match_line(candidate)
+            if not parsed_candidate:
+                continue
+            key = (
+                _normalize_team(parsed_candidate["home_team"]),
+                _normalize_team(parsed_candidate["away_team"]),
+            )
+            if key in results_map:
+                return parsed_candidate
+    return parsed
 
 
 def _load_results(path: Path) -> Dict[Tuple[str, str], Dict[str, str]]:
@@ -72,6 +108,11 @@ def _split_blocks(lines: Iterable[str]) -> List[Tuple[List[str], List[str]]]:
             if not stripped:
                 _flush()
             continue
+        if CHAT_HEADER_PATTERN.match(stripped):
+            if matches:
+                _flush()
+            metadata.append(stripped)
+            continue
         parsed = parse_match_line(stripped)
         if parsed:
             matches.append(stripped)
@@ -89,8 +130,13 @@ def _extract_user_info(meta: List[str], idx: int) -> Tuple[str | None, str]:
         (item for item in reversed(meta) if _contains_letters(item) and item != user_id),
         None,
     )
+    if not name_candidate:
+        name_candidate = next(
+            (item for item in reversed(meta) if item != user_id),
+            None,
+        )
     if name_candidate:
-        user_name = name_candidate.strip()
+        user_name = _strip_chat_header(name_candidate)
     elif user_id:
         user_name = user_id
     else:
@@ -215,7 +261,9 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     skipped_matches: List[str] = []
     for idx, (meta, match_lines) in enumerate(blocks, start=1):
-        parsed_matches = [parse_match_line(line) for line in match_lines]
+        parsed_matches = [
+            _parse_prediction_match(line, results_map) for line in match_lines
+        ]
         parsed_matches = [match for match in parsed_matches if match]
         if not parsed_matches:
             continue

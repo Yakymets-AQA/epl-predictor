@@ -70,7 +70,7 @@ def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="Replace existing predictions for the same users and fixtures (older rounds remain).",
     )
-    return parser.parse_args(argv)
+    return parser.parse_args(list(argv) if argv is not None else None)
 
 
 def _build_import_args(args: argparse.Namespace) -> List[str]:

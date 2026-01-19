@@ -21,6 +21,7 @@ TEAM_ALIASES = {
     # Brentford
     "brentford": "brentford",
     "брентфорд": "brentford",
+    "брендфорд": "brentford",
     # Brighton
     "brighton": "brighton",
     "brighton & hove albion": "brighton",
@@ -38,9 +39,20 @@ TEAM_ALIASES = {
     "челсі": "chelsea",
     # Crystal Palace
     "crystal palace": "crystal palace",
+    "crystal p": "crystal palace",
+    "crystal p.": "crystal palace",
     "кристал пэлас": "crystal palace",
+    "кристал п": "crystal palace",
+    "кристал п.": "crystal palace",
     "кристал пелес": "crystal palace",
+    "кристал пелас": "crystal palace",
+    "коистал пелас": "crystal palace",
+    "коистал пелес": "crystal palace",
     "крістал пелес": "crystal palace",
+    "крістал пелас": "crystal palace",
+    "крістал п": "crystal palace",
+    "крістал п.": "crystal palace",
+    "крістал плелес": "crystal palace",
     # Everton
     "everton": "everton",
     "эвертон": "everton",
@@ -80,6 +92,8 @@ TEAM_ALIASES = {
     "manchester city": "manchester city",
     "манчестер сити": "manchester city",
     "манчестер сіті": "manchester city",
+    "ман сіті": "manchester city",
+    "ман сити": "manchester city",
     "мс": "manchester city",
     # Manchester United
     "man united": "manchester united",
@@ -87,6 +101,7 @@ TEAM_ALIASES = {
     "манчестер юнайтед": "manchester united",
     "манчестер юнiтет": "manchester united",
     "манчестер юнайтед": "manchester united",
+    "ман юнайтед": "manchester united",
     "мю": "manchester united",
     # Newcastle United
     "newcastle": "newcastle united",
@@ -99,28 +114,34 @@ TEAM_ALIASES = {
     "nottingham": "nottingham forest",
     "ноттингем": "nottingham forest",
     "нотоингем": "nottingham forest",
+    "нотінгем": "nottingham forest",
     "ноттінгем": "nottingham forest",
     "ноттінгем форест": "nottingham forest",
+    "ноттенхем": "nottingham forest",
+    "ноттенхем ф": "nottingham forest",
+    "нотінгем форест": "nottingham forest",
     # Southampton
     "southampton": "southampton",
     "саутгемптон": "southampton",
     "саутгемтон": "southampton",
     "саутгемптон": "southampton",
+    # Sunderland
+    "sunderland": "sunderland",
+    "сандерленд": "sunderland",
     # Tottenham Hotspur
     "tottenham": "tottenham hotspur",
     "tottenham hotspur": "tottenham hotspur",
     "тоттенхэм": "tottenham hotspur",
     "тоттенгем": "tottenham hotspur",
     "тоттенхем": "tottenham hotspur",
+    "тотенгем": "tottenham hotspur",
+    "тотенхем": "tottenham hotspur",
     # West Ham United
     "west ham": "west ham united",
     "west ham united": "west ham united",
     "вест хэм": "west ham united",
     "вест хем": "west ham united",
     "вест гем": "west ham united",
-    # Sunderland
-    "sunderland": "sunderland",
-    "сандерленд": "sunderland",
     # Wolverhampton Wanderers
     "wolverhampton": "wolverhampton wanderers",
     "wolverhampton wanderers": "wolverhampton wanderers",
